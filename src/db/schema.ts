@@ -27,3 +27,4 @@ export const createTasksSchema = createInsertSchema(tasks, {
     createdAt: true,
     updatedAt: true,
   });
+export const patchTasksSchema = createTasksSchema.partial();
