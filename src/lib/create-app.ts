@@ -1,6 +1,6 @@
 import { OpenAPIHono } from "@hono/zod-openapi";
 
-import type { AppBindings } from "@/lib/types.js";
+import type { AppBindings, AppOpenAPI } from "@/lib/types.js";
 
 import notFound from "@/middleware/not-found.js";
 import { pinoLogger } from "@/middleware/pino-logger.js";
@@ -25,4 +25,10 @@ export default function createApp() {
   app.onError(onError);
 
   return app;
+}
+
+export function createTestApp(router: AppOpenAPI) {
+  const testApp = createApp();
+  testApp.route("/", router);
+  return testApp;
 }
