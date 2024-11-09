@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1731161099324,
+      "tag": "0000_tiresome_micromacro",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1731161293049,
+      "tag": "0001_flippant_harrier",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1731161530235,
+      "tag": "0002_lean_layla_miller",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1731161668815,
+      "tag": "0003_neat_pestilence",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1731161838307,
+      "tag": "0004_pink_lockjaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1731162154367,
+      "tag": "0005_complex_hairball",
+      "breakpoints": true
+    }
+  ]
+}
